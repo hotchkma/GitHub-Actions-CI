@@ -10,7 +10,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(example.subtract(2, 1), 1)
 
     def test_multiply_1(self):
-        self.assertEqual(example.multiply(2, 3) 6)
+        self.assertEqual(example.multiply(2, 3), 6)
 
 
 if __name__ == '__main__':
